@@ -1,4 +1,5 @@
-class AlunosController {
+import {AlunoModel} from "./../Models/Aluno.model.js"
+export class AlunosController {
     constructor(service, view) {
         view.render(service.alunos)
         this.view = view

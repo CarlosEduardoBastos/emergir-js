@@ -1,6 +1,5 @@
-class EditAlunoView {
+export class EditAlunoView {
     constructor(form, materias) {
-        // this.render()
         this.form = form
         this.container = form.querySelector("[data-edit-notas]")
         this.materias = materias
